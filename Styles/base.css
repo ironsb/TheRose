@@ -10,6 +10,11 @@ body{
 #nav_bar li{
 	display: inline;
 }
+footer{
+	clear:left;
+}
+
+
 #footer ul{
 	list-style: none;
 	padding: .5em 0;
@@ -19,3 +24,4 @@ body{
 #footer li{
 	display: inline;
 }
+
