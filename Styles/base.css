@@ -1,0 +1,29 @@
+body{
+	
+}
+#nav_bar ul{
+	list-style: none;
+	padding: .5em 0;
+	background-color:;
+	text-align: center;
+}
+#nav_bar li{
+	display: inline;
+}
+footer{
+	clear:left;
+}
+
+
+#footer ul{
+	list-style: none;
+	padding: .5em 0;
+	background-color: ;
+	text-align: center;
+}
+#footer li{
+	display: inline;
+}
+p{
+	float;right: 
+}
