@@ -5,10 +5,10 @@ body{
 	list-style: none;
 	padding: .5em 0;
 	background-color:;
-	text-align: center;
+	text-align: left;
 }
 #nav_bar li{
-	display: inline;
+
 }
 footer{
 	clear:left;
@@ -24,6 +24,4 @@ footer{
 #footer li{
 	display: inline;
 }
-p{
-	float;right: 
-}
+
