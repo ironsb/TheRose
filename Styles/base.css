@@ -43,4 +43,9 @@ footer{
 #footer li{
 	display: inline;
 }
-
+tr{
+	text-align:center;
+}
+td{
+	text-align:center;
+}
