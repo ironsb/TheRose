@@ -17,17 +17,34 @@ body{
 	position: absolute;
 	top: 31px;
 	z-index: 100;
-	width: 250px;
+	width:auto;
 
 }
 #nav_bar ul{
 	list-style: none;
-	padding: .5em 0;
-	background-color:;
+	padding: 0em 0;
+	margin-top: 125px;
 	text-align: left;
+	margin-right: 20px;
+	width:100px;
+	float:left;
+	background-color:#A4EF9E;
 }
 #nav_bar li{
+	float: left;
+	clear: both;
+	text-align:center;
+	border: solid black 5px;
+	padding:15px;
+	width:58px;
+	background-color:#A4EF9E;
 
+}
+#nav_bar{
+	clear: left;
+	text-decoration: none;
+	background-color:#A4EF9E;
+	
 }
 footer{
 	clear:left;
@@ -37,15 +54,31 @@ footer{
 #footer ul{
 	list-style: none;
 	padding: .5em 0;
-	background-color: ;
+	background-color: #A4EF9E;
+	border:#000000;
 	text-align: center;
+	
 }
 #footer li{
 	display: inline;
+}
+#footer{
+	padding-left: 200px; padding-right: 200px;
 }
 tr{
 	text-align:center;
 }
 td{
 	text-align:center;
+}
+#gallery{
+
+width:300px;
+height:90px;
+margin:5px;
+clear:right;
+}
+#slide{
+	width:900px;
+	height: 500px;
 }
