@@ -13,9 +13,9 @@ body{
 	border: 1px solid black;
 }
 #topleft{
-	left: 10px;
+	left: 1px;
 	position: absolute;
-	top: 31px;
+	top: 1px;
 	z-index: 100;
 	width:auto;
 
@@ -57,13 +57,14 @@ footer{
 	background-color: #A4EF9E;
 	border:#000000;
 	text-align: center;
-	
+	margin-left: 200px; 
+	margin-right: 200px;
 }
 #footer li{
 	display: inline;
 }
 #footer{
-	padding-left: 200px; padding-right: 200px;
+	
 }
 tr{
 	text-align:center;
