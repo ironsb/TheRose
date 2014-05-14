@@ -13,6 +13,9 @@ body{
 	padding: 15px 25px;
 	border: 4px groove black;
 }
+header{
+	padding-bottom: 5%;
+}
 #topleft{
 	left: 1px;
 	position: absolute;
@@ -29,7 +32,8 @@ body{
 #nav_bar a{
 	color:#000000;
 	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Verdana, helvetica, sans-serif;
+	font-weight:500;
 }
 #nav_bar ul{
 	list-style: none;
@@ -37,24 +41,27 @@ body{
 	text-align: left;
 	float:left;
 	margin: 0;
-	background-color:#A4EF9E;
+	background-color:#A4BD64;
+	border: 4px ridge black;
 }
 #nav_bar li{
 	float: left;
 	clear: both;
 	text-align:center;
-	border: solid black 3px;
+	border-bottom: 3px ridge #4C5453;
 	padding:15px;
 	width:58px;
-	background-color:#A4EF9E;
-
+	background-color:#A9CC50;
+	
 }
 #nav_bar{
-	top: 37%;
-	left: 5%;
-	position:absolute;
 	background-color:#A4EF9E;
 	
+}
+.navbar{
+	top: 350px;
+	left: 5%;
+	position:absolute;
 }
 .clear{
 	padding-top: 10%;
