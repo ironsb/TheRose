@@ -1,16 +1,17 @@
 html{
-	background-image: -moz-linear-gradient(top, #FA001C 0%, #A4EF9E 100%);
-	background-image: -webkit-linear-gradient(top, #FA001C 0%, #A4EF9E 100%);
-	background-image: -o-linear-gradient(top, #FA001C 0%, #A4EF9E 100%);
-	background-image: linear-gradient(top, #FA001C 0%, #A4EF9E 100%);
+	background: -webkit-linear-gradient(left top, #BDBB64 , #D4D86A); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #BDBB64, #D4D86A); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #BDBB64, #D4D86A); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #BDBB64 , #D4D86A); /* Standard syntax (must be last) */
 }
 body{
-	width: 85%;
+	
+	width: 80%;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
-	margin: 10% auto;
+	margin: 13% 8%;
 	padding: 15px 25px;
-	border: 1px solid black;
+	border: 4px groove black;
 }
 #topleft{
 	left: 1px;
@@ -20,41 +21,59 @@ body{
 	width:auto;
 
 }
+#nav_bar li:hover{
+	background-color:#BDBB64;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#nav_bar a{
+	color:#000000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
 #nav_bar ul{
 	list-style: none;
 	padding: 0em 0;
-	margin-top: 125px;
 	text-align: left;
-	margin-right: 20px;
-	width:100px;
 	float:left;
+	margin: 0;
 	background-color:#A4EF9E;
 }
 #nav_bar li{
 	float: left;
 	clear: both;
 	text-align:center;
-	border: solid black 5px;
+	border: solid black 3px;
 	padding:15px;
 	width:58px;
 	background-color:#A4EF9E;
 
 }
 #nav_bar{
-	clear: left;
-	text-decoration: none;
+	top: 37%;
+	left: 5%;
+	position:absolute;
 	background-color:#A4EF9E;
 	
 }
-footer{
+.clear{
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-bottom: 10%;
 	clear:left;
+}
+footer{
+	
+	z-index: 2;
+	clear:both;
+	background-color: #A1ADAC;
 }
 
 
 #footer ul{
 	list-style: none;
 	padding: .5em 0;
-	background-color: #A4EF9E;
+	
 	border:#000000;
 	text-align: center;
 	margin-left: 200px; 
@@ -63,9 +82,7 @@ footer{
 #footer li{
 	display: inline;
 }
-#footer{
-	
-}
+
 tr{
 	text-align:center;
 }
@@ -83,3 +100,4 @@ clear:right;
 	width:900px;
 	height: 500px;
 }
+

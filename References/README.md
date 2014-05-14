@@ -34,3 +34,10 @@ CSS-.thumbnails img {
 		padding: 1px;
 		height: 500px;
 	}
+	
+Color Scheme
+	B5333B
+	486FAD
+	D4D86A
+	BDBB64
+	B2CAC7
