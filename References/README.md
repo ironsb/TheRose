@@ -36,8 +36,8 @@ CSS-.thumbnails img {
 	}
 	
 Color Scheme
-	B5333B
-	486FAD
-	D4D86A
-	BDBB64
-	B2CAC7
+	#B5333B
+	#486FAD
+	#D4D86A
+	#BDBB64
+	#B2CAC7
