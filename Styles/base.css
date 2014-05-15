@@ -13,6 +13,11 @@ body{
 	padding: 15px 25px;
 	border: 4px groove black;
 }
+.headerp{
+	text-align:right;
+}
+
+
 header{
 	padding-bottom: 5%;
 }
@@ -43,6 +48,7 @@ header{
 	margin: 0;
 	background-color:#A4BD64;
 	border: 4px ridge black;
+	border-bottom: none;
 }
 #nav_bar li{
 	float: left;
@@ -120,7 +126,7 @@ margin-right:50px;
 
 .thumbnails{
 	padding-left:27%;
-	padding-right:27%
+	padding-right:27%;
 	margin-left: auto;
 	margin-right: auto;
 }
