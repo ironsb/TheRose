@@ -41,3 +41,24 @@ Color Scheme
 	#D4D86A
 	#BDBB64
 	#B2CAC7
+	#find{
+				
+				background:none;
+				border:none;
+				color:#000000;
+				text-decoration: none;
+				font-family: Verdana, helvetica, sans-serif;
+				font-size:inherit;
+				padding:0;
+			}
+			#find:hover{
+				cursor: pointer;
+				background-color:#BDBB64;
+				text-decoration: none;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+		<form action="http://maps.google.com/maps" method="get" target="_blank">
+						   <input type="hidden" name="saddr" value="current location" />
+						   <input type="hidden" name="daddr" value="408 Main St. Pagosa Springs Colorado" />
+						   <input id="find" type="submit" value="Find Us" />
+						</form>
