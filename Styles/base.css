@@ -74,13 +74,17 @@ footer{
 	z-index: 2;
 	clear:both;
 	background-color: #A1ADAC;
+	text-align:center;
 }
 
 
 #footer ul{
 	list-style: none;
 	padding: .5em 0;
-	
+	color:#000000;
+	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
+	font-weight:500;
 	border:#000000;
 	text-align: center;
 	margin-left: 200px; 
@@ -88,6 +92,7 @@ footer{
 }
 #footer li{
 	display: inline;
+	color:#000000;
 }
 
 tr{
@@ -102,15 +107,20 @@ width:200px;
 height:90px;
 margin:5px;
 clear:right;
+margin-left:80px;
+margin-bottom:50px;
+margin-right:50px;
 }
 #slide{
-	width:900px;
+	width:800px;
 	height: 500px;
+	float:right;
+	
 }
 
 .thumbnails{
-	padding-left:25%;
-	padding-right:25%
+	padding-left:27%;
+	padding-right:27%
 	margin-left: auto;
 	margin-right: auto;
 }
