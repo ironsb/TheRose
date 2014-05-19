@@ -70,11 +70,21 @@ header{
 	position:absolute;
 }
 .clear{
+	width:35%;
 	padding-top: 10%;
 	padding-left: 10%;
 	padding-bottom: 10%;
-	clear:left;
+	float: left;
 }
+.clear2{
+	width:35%;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-bottom: 10%;
+	float:right;
+}
+
+
 footer{
 	
 	z-index: 2;
@@ -177,4 +187,11 @@ margin-right:50px;
 	text-align:center;
 	font-family: Verdana, helvetica, sans-serif;
 }
-
+#HCB_comment_box{
+	float: right;
+	width:45%;
+	background-color:#EBF4FA;
+	padding:5px;
+	margin-bottom:10px;
+	border: 4px solid #444;
+}
