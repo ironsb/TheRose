@@ -133,7 +133,10 @@ clear:right;
 margin-left:80px;
 margin-bottom:50px;
 margin-right:50px;
+padding-top:35px;	
+padding-bottom:35px;
 }
+
 #slide{
 	width:90%;
 	height:500px;
