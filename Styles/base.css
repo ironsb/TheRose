@@ -19,7 +19,7 @@ body{
 
 
 header{
-	padding-bottom: 5%;
+	padding-bottom: 0px;
 }
 #topleft{
 	left: 1px;
@@ -186,6 +186,8 @@ padding:0;
 #title{
 	text-align:center;
 	font-family: Verdana, helvetica, sans-serif;
+	font-size: 200%;
+	padding-bottom: 0px;
 }
 #HCB_comment_box{
 	float: right;
