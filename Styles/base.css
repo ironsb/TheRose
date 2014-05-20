@@ -9,15 +9,14 @@ body{
 	width: 80%;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
-	margin: 13% 8%;
+	margin: 10% 8%;
 	padding: 15px 25px;
+	padding-bottom: 0;
 	border: 4px groove black;
 }
 .headerp{
 	text-align:right;
 }
-
-
 header{
 	padding-bottom: 0px;
 }
@@ -84,17 +83,13 @@ header{
 	padding-bottom: 10%;
 	float:right;
 }
-
-
 footer{
-	
-	z-index: 2;
+	z-index: 100;
 	clear:both;
 	background-color: #A1ADAC;
 	text-align:center;
+	margin:0;
 }
-
-
 #footer ul{
 	list-style: none;
 	padding: .5em 0;
@@ -104,8 +99,8 @@ footer{
 	font-weight:500;
 	border:#000000;
 	text-align: center;
-	margin-left: 200px; 
-	margin-right: 200px;
+	margin-left: 300px; 
+	margin-right: 300px;
 }
 #footer li{
 	display: inline;
@@ -117,7 +112,10 @@ footer{
 	font-family: Verdana, helvetica, sans-serif;
 	font-weight:500;
 }
-
+footer p{
+	
+	margin: 0px;
+}
 tr{
 	text-align:center;
 }
@@ -125,16 +123,15 @@ td{
 	text-align:center;
 }
 #gallery{
-
-width:90%;
-height:90px;
-margin:5px;
-clear:right;
-margin-left:80px;
-margin-bottom:50px;
-margin-right:50px;
-padding-top:35px;	
-padding-bottom:35px;
+	width:90%;
+	height:90px;
+	margin:5px;
+	clear:right;
+	margin-left:80px;
+	margin-bottom:50px;
+	margin-right:50px;
+	padding-top:15px;	
+	padding-bottom:15px;
 }
 
 #slide{
@@ -143,42 +140,42 @@ padding-bottom:35px;
 }
 
 .thumbnails{
-	padding-left:27%;
-	padding-right:27%;
+	padding-left:30%;
+	padding-right:30%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .thumbnails img {
-		height: 80px;
-		border: 4px solid #555;
-		padding: 1px;
-		margin: 0 10px 10px 0;
-		clear:both;
-		z-index: 2;
-		text-align: center;
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+	clear:both;
+	z-index: 2;
+	text-align: center;
 }
 
 .thumbnails img:hover {
-		border: 4px solid #00ccff;
-		cursor:pointer;
-		clear:both;
+	border: 4px solid #00ccff;
+	cursor:pointer;
+	clear:both;
 }
 
 .preview img {
-		border: 4px solid #444;
-		padding: 1px;
-		height: 90%;
-		width: 75%;
+	border: 4px solid #444;
+	padding: 1px;
+	height: 90%;
+	width: 75%;
 }
 #find{	
-background:none;
-border:none;
-color:#000000;
-text-decoration: none;
-font-family: Verdana, helvetica, sans-serif;
-font-size:inherit;
-padding:0;
+	background:none;
+	border:none;
+	color:#000000;
+	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
+	font-size:inherit;
+	padding:0;
 }
 #find:hover{
 	cursor: pointer;
