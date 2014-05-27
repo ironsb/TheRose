@@ -75,13 +75,7 @@ header{
 	padding-bottom: 10%;
 	float: left;
 }
-.clear2{
-	width:35%;
-	padding-top: 10%;
-	padding-left: 10%;
-	padding-bottom: 10%;
-	float:right;
-}
+
 footer{
 	z-index: 100;
 	clear:both;
