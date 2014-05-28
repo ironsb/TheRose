@@ -42,100 +42,93 @@
 		</section>
 		</header>
 		<br/>
-			
-			
-			
-			
-			
-			
-			
-			<script type="text/javascript" id="test"> 
+		<script type="text/javascript" id="test"> 
 
-				var i = 0; 
+			var i = 0; 
 
-				var image = new Array();   
+			var image = new Array();   
 
-				// LIST OF IMAGES 
-				
-				image[0] = "Graphics/photo 1.JPG"; 
-				
-				image[1] = "Graphics/photo 2.JPG"; 
-				
-				image[2] = "Graphics/photo 3.JPG"; 
-				
-				image[3] = "Graphics/photo 4.JPG";
-				
-				image[4] = "Graphics/photo 5.JPG";
-				   
-				
-				var k = image.length-1;    
-				
-				var caption = new Array(); 
-				
-				// LIST OF CAPTİONS  
-				
-				caption[0] = ""; 
-				
-				caption[1] = ""; 
-				
-				caption[2] = "";
-				
-				caption[3] = "";
-				
-				caption[4] = "";
-				
-				  
-				function swapImage(){ 
-				
-				var el = document.getElementById("mydiv"); 
-				
-				el.innerHTML=caption[i]; 
-				
-				var img= document.getElementById("slide"); 
-				
-				img.src= image[i];  
-				
-				if(i < k ) { i++;}  
-				
-				else  { i = 0; } 
-				
-				setTimeout("swapImage()",5000);  
-				
-				} 
-				
-				function addLoadEvent(func) { 
-				
-				var oldonload = window.onload; 
-				
-				if (typeof window.onload != 'function') { 
-				
-				window.onload = func; 
-				
-				} else  { 
-				
-				window.onload = function() { 
-				
-				if (oldonload) { 
-				
-				oldonload(); 
-				
-				} 
-				
-				func(); 
-				
-				} 
-				
-				} 
-				
-				}  
-				
-				addLoadEvent(function() { 
-				
-				swapImage(); 
-				
-				});  
+			// LIST OF IMAGES 
+			
+			image[0] = "Graphics/photo1.JPG"; 
+			
+			image[1] = "Graphics/photo2.JPG"; 
+			
+			image[2] = "Graphics/photo3.JPG"; 
+			
+			image[3] = "Graphics/photo4.JPG";
+			
+			image[4] = "Graphics/photo5.JPG";
+			   
+			
+			var k = image.length-1;    
+			
+			var caption = new Array(); 
+			
+			// LIST OF CAPTİONS  
+			
+			caption[0] = ""; 
+			
+			caption[1] = ""; 
+			
+			caption[2] = "";
+			
+			caption[3] = "";
+			
+			caption[4] = "";
+			
+			  
+			function swapImage(){ 
+			
+			var el = document.getElementById("mydiv"); 
+			
+			el.innerHTML=caption[i]; 
+			
+			var img= document.getElementById("slide"); 
+			
+			img.src= image[i];  
+			
+			if(i < k ) { i++;}  
+			
+			else  { i = 0; } 
+			
+			setTimeout("swapImage()",5000);  
+			
+			} 
+			
+			function addLoadEvent(func) { 
+			
+			var oldonload = window.onload; 
+			
+			if (typeof window.onload != 'function') { 
+			
+			window.onload = func; 
+			
+			} else  { 
+			
+			window.onload = function() { 
+			
+			if (oldonload) { 
+			
+			oldonload(); 
+			
+			} 
+			
+			func(); 
+			
+			} 
+			
+			} 
+			
+			}  
+			
+			addLoadEvent(function() { 
+			
+			swapImage(); 
+			
+			});  
 
-			</script> 
+		</script> 
 		<table id="gallery" style="border:3px solid #A9CC50;background-color: #A9CC50;"> 
 			<tr>
 				<td> 
@@ -144,9 +137,9 @@
 			</tr> 
 			<tr> 
 				<td align="center"style="font:small-caps bold 15px georgia; color: #FFFFFF;"> 
-					<div id ="mydiv">	
-					</div> 
-				</tr> 
+				<div id ="mydiv">	
+				</div> 
+			</tr> 
 			</td> 
 		</table> 
 		<br />
@@ -159,11 +152,9 @@
 					 <li><a href="contact.html">Contact Us</a></li>
 				</ul>			
 			</p>
-				
 			<p>
 				 The Rose | 408 Main St. | 970-264-2955
-			</p>
-				
+			</p>	
 		</footer>
 	</body>
 </html>
